@@ -53,7 +53,8 @@ http://localhost:3000/sales/report
 POST()
 http://localhost:3000/sales/record
 
-add this to the body of the request with raw text
+**add this to the body of the request with raw text**
+    
 UserName,Age,Height,Gender,Sales,LastPurchaseDate
 Jennina,28,140,F,20,04/17/2022
 test,29,141,M,21,04/18/2022
