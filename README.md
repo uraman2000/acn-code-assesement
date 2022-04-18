@@ -44,18 +44,29 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## Performing the api
+```bash
+links of the api are
+GET()
+http://localhost:3000/sales/report
 
+POST()
+http://localhost:3000/sales/record
+
+add this to the body of the request with raw text
+UserName,Age,Height,Gender,Sales,LastPurchaseDate
+Jennina,28,140,F,20,04/17/2022
+test,29,141,M,21,04/18/2022
+ipsum,30,142,F,22,04/19/2022
+lorem,31,143,F,23,04/20/2022
+tester,32,144,M,24,04/21/2022
+PolImbing,25,186,Male,23,05/03/2022
+```
 ## Test
 
 ```bash
 # unit tests
 $ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 ## Support
